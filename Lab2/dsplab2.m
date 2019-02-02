@@ -22,14 +22,23 @@ for i = 1:size(x,1)
 end
 figure;
 subplot(1,3,1);
-stem(sample);
+stem(x,sample);
+ylim([0,2]);
+title('Impulse Function');
+
 subplot(1,3,2);
-stem(step);
+stem(x,step);
+ylim([0,2]);
+title('Unit step Function');
+
 subplot(1,3,3);
-stem(ramp);
+stem(x,ramp);
+ylim([0,10]);
+title('Unit Ramp Function');
 
 figure;
 for f =1:4
     subplot(2,2,f);
-    stem(ex(f,:));
+    stem(x,ex(f,:));
+    title(strcat('a = ',num2str(a(f))));
 end
