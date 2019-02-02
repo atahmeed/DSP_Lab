@@ -1,0 +1,89 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[framed,numbered]{matlab-prettifier}
+\usepackage{caption}
+\begin{document}
+	\begin{titlepage}
+		
+		\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+		
+		\center % Center everything on the page
+		
+		
+		
+		\textsc{\LARGE Department of  }\\[0.3cm] % Name of your university/college
+		\textsc{\LARGE Robotics and Mechatronics Engineering  }\\[0.3cm]
+		\textsc{\Large   }\\[0.3cm]
+		\textsc{\Large Lab report }\\[0.5cm] % Major heading such as 
+		
+		\HRule \\[0.4cm]
+		{ \huge \bfseries DIGITAL SIGNAL PROCESSING}\\[0.4cm]  
+		
+		{ \huge \bfseries (CSE-401)}\\[0.03cm]
+		% Title of your document
+		\HRule \\[5cm]
+		
+		
+		
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushleft} \large
+				\emph{Submitted By:}\\
+				Md. Tahmeed Abdullah \\Roll: SH-092-002\\$4^{th}$ year $1^{st}$ semester % Your name
+			\end{flushleft}
+		\end{minipage}
+		~
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushright} \large
+				\emph{Submitted To:} \\
+				Mr. Sujan Sarker\\Lecturer\\Dept. of RME % Supervisor's Name
+			\end{flushright}
+		\end{minipage}\\[1cm]
+		
+	
+		
+		\vfill
+		
+		{\LARGE Date of submission: 3 February, 2019 }\\[1cm] 
+		
+		
+		
+	\end{titlepage}
+	\begin{center}
+		
+	\end{center}
+	
+	\section*{Name of the experiment}
+	Time shifting of digital signals.
+	\section*{Objectives}
+	\begin{itemize}
+		\item To learn about sampling a continuous time signal and basics of digital singals. 
+		\item Learn time delay and time advance of signals.
+		\item Learn to implements signal processing in MATLAB
+	\end{itemize}
+	\section*{Theory}
+	A digital signal is obtained by sampling and quantizing a continuous time signal. Let $x[n]$ be a digital signal where n indicate the sample number. Let the shifted signal is represented by $ y[n] = x[n-k] $. If $ k>0 $, the output signal $y[n]$ is delayed by samples $k$ and if $k<0$, the output signal $y[n]$ is time advanced by samples $k$. If $k=0$, the output signal is the same as input signal.
+	
+	For example:
+	$$ x[n] = \{-x_3, -x_2, -x_1, x_0, x_1, x_2, x_3\} $$
+	Here $x[n]$ is a finite digital signal and for $n=0 , x[n] = x_0$. If time advance is applied to the signal, where the signal advances by 3 samples i.e. $k=-3$. Then the output signal is as follows. 
+	$$ y[n] = \{x_0, x_1, x_2, x_3, 0, 0, 0\} $$
+	So, $y[n] = x[n-k]$, where $k=-3$ for this example. putting $n=0$, we get $y[0] = x[3]$ . So, the signal advances by 3 samples. 
+	
+	Again, if time delay is applied to the signal, where the signal is delayed by 3 samples i.e. $k=3$. Then the output signal is as follows. 
+	$$ y[n] = \{0, 0, 0, -x_3, -x_2, -x_1, x_0\} $$
+	So, $y[n] = x[n-k]$, where $k=3$ for this example. putting $n=0$, we get $y[0] = x[-3]$ . So, the signal delays by 3 samples. 
+	
+	In both the processes, some signal values get removed from the finite window and the empty spaces are filled with zero value.
+		
+	\vfill
+	
+	\section*{Implementation Code}  
+	\captionsetup{labelformat=empty,labelsep=none}
+	\lstinputlisting[style = Matlab-editor, caption={main.m}]{main.m}
+	\vspace{1.5cm}
+	\large Functions Used:
+	\lstinputlisting[style = Matlab-editor, caption={delay.m}]{delay.m}
+	\lstinputlisting[style = Matlab-editor, caption={advance.m}]{advance.m}
+	
+	
+	
+\end{document}
