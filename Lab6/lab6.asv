@@ -1,0 +1,27 @@
+clc; clear; close all;
+I = imread('road.jpg');
+I = rgb2gray(I);
+I = double(I)/255;
+[M,N] = size(I);
+
+for i=1:M
+    for j=1:N
+        I(i,j) = I(i,j)*(-1)^(i+j); 
+    end
+end
+
+I_fft = fft(I);
+
+cutoff_frequency = 400;
+% Low pass
+H_lowpass = zeros(M,N);
+
+for i=1:M
+    for j=1:N
+        if norm([M/2 N/2]-[i j])<cutoff_frequency
+            H(i,j)=1;
+        end
+    end
+end
+
+I_lowpass_F = I_fft*H;

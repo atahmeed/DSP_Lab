@@ -8,10 +8,10 @@ h = [1, 2,3,1]; hn = -horigin : size(x,2)-horigin-1;
 
 
 %% Correlation using convolution
-xor = 6;
-hor = 5;
-X = [2,-1,3,7,1,2,-3,0,0];  Xn = -xor : size(X,2)-xor-1; 
-Y = [0,1,-1,2,-2,4,1,-2,5,0]; Yn = -hor : size(Y,2)-hor-1;
+xor = 2;
+hor = 2;
+X = [1,2,3,-4];  Xn = -xor : size(X,2)-xor-1; 
+Y = [1,3,-4,5]; Yn = -hor : size(Y,2)-hor-1;
 [Y,Yn] = fold(Y,Yn);
 [corr, corridx] = convolute(X,Xn, Y, Yn);
 
