@@ -1,12 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.23)  18 FEB 2019 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.1)  7 JUN 2019 16:06
 entering extended mode
-**./labreport.tex
-(labreport.tex
+**./report3.tex
+(report3.tex
 LaTeX2e <2018-12-01>
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls
-"
+(B:\miktex\tex/latex/base\article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
+(B:\miktex\tex/latex/base\size11.clo
 File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -21,13 +20,11 @@ File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/matlab-prettifie
-r\matlab-prettifier.sty"
+(B:\miktex\tex/latex/matlab-prettifier\matlab-prettifier.sty
 Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab 
 source code
 
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.st
-y"
+(B:\miktex\tex/latex/base\textcomp.sty
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -41,12 +38,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+ (B:\miktex\tex/latex/base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
+
+(B:\miktex\tex/latex/base\ts1enc.dfu
 File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -182,19 +179,15 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.st
-y"
+) (B:\miktex\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\col
-or.cfg"
+(B:\miktex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdf
-tex.def"
+(B:\miktex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -207,10 +200,8 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listing
-s.sty"
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.
-sty"
+(B:\miktex\tex/latex/listings\listings.sty
+(B:\miktex\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
@@ -227,15 +218,13 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \lst@lineno=\count93
 \lst@maxwidth=\dimen106
 
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc
-.sty"
+(B:\miktex\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 \c@lstnumber=\count94
 \lst@skipnumbers=\count95
 \lst@framebox=\box28
 )
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listing
-s.cfg"
+(B:\miktex\tex/latex/listings\listings.cfg
 File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
@@ -247,12 +236,10 @@ Package: listings 2018/09/02 1.7 (Carsten Heinz)
 \sectionRuleOffset@mlpr=\skip45
 \toks@mlpr=\toks16
 )
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.
-sty"
+(B:\miktex\tex/latex/caption\caption.sty
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3
-.sty"
+(B:\miktex\tex/latex/caption\caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen107
@@ -266,31 +253,40 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \c@caption@flags=\count99
 \c@ContinuedFloat=\count100
 Package caption Info: listings package is loaded.
-) (labreport.aux)
-\openout1 = `labreport.aux'.
+)
+(B:\miktex\tex/latex/graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
+(B:\miktex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(B:\miktex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+) (report3.aux)
+\openout1 = `report3.aux'.
 
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
+
+(B:\miktex\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 4.
-
-("C:\Users\Student\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf.
-mkii"
+LaTeX Font Info:    ... okay on input line 5.
+ (B:\miktex\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
 \scratchdimen=\dimen114
@@ -303,45 +299,99 @@ mkii"
 \MPnumerator=\count105
 \makeMPintoPDFobject=\count106
 \everyMPtoPDFconversion=\toks18
+) (B:\miktex\tex/latex/oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(B:\miktex\tex/generic/oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(B:\miktex\tex/latex/oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(B:\miktex\tex/generic/oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(B:\miktex\tex/generic/oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(B:\miktex\tex/latex/oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(B:\miktex\tex/generic/oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(B:\miktex\tex/generic/oberdiek\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(B:\miktex\tex/generic/oberdiek\ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(B:\miktex\tex/generic/oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(B:\miktex\tex/generic/oberdiek\ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \c@lstlisting=\count107
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 30.
+(Font)              <6> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 32.
+(Font)              <10.95> on input line 33.
  [1
 
-{C:/Users/Student/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(../lab3.m) (../convolution.m [1]) (../rightShift.m) (../Ws.m) [2]
-(labreport.aux) ) 
+{C:/Users/user/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+<Capture.jpg, id=10, 314.97675pt x 75.8835pt>
+File: Capture.jpg Graphic file (type jpg)
+<use Capture.jpg>
+Package pdftex.def Info: Capture.jpg  used on input line 69.
+(pdftex.def)             Requested size: 314.97597pt x 75.8833pt.
+[1 <./Capture.jpg>] (../lab3.m) (../convolution.m) [2] (../rightShift.m)
+(../Ws.m) [3] (report3.aux) ) 
 Here is how much of TeX's memory you used:
- 4682 strings out of 492946
- 68283 string characters out of 3125378
- 197161 words of memory out of 3000000
- 8580 multiletter control sequences out of 15000+200000
- 10730 words of font info for 38 fonts, out of 3000000 for 9000
+ 5336 strings out of 492946
+ 76296 string characters out of 3143499
+ 224376 words of memory out of 3000000
+ 9187 multiletter control sequences out of 15000+200000
+ 10431 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,57p,223b,1747s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Student\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jk
-nappen/ec/dpi600\tcrm1095.pk><C:/Users/Student/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Student/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Student/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/U
-sers/Student/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><C:/Users/Student/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><C:/Users/Student/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Student/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Student/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on labreport.pdf (3 pages, 109996 bytes).
+ 41i,6n,57p,276b,1288s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\user\AppData\Local\MiKTeX\2.9\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm1095.pk><B:/miktex/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><B:/miktex/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><B:/miktex/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><B:/miktex/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><B:/miktex/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><B:/miktex/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb><B:/miktex/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on report3.pdf (4 pages, 157820 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

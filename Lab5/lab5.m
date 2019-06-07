@@ -7,7 +7,7 @@ x = [x x x x x x x x x x x x x x x 1 1 1 1 1];
 Xn = 0:199;
 
 % Definitions
-a = 0.5;
+a = 0.85;
 D=round(random('Uniform',10,20));
 v = random('Normal' , 0, 0.1, [1 200]);
 
@@ -17,8 +17,7 @@ y = a*x + v;
 yn = xn;
 
 % cross correlate x,y
-[y,yn] = fold(y,yn);
-[rxy,lag] = convolute(x,Xn,y,yn);
+[rxy,lag] = ccor(x,Xn,y,yn);
 
 % Find index of peak
 [M, midx] = max(rxy);
