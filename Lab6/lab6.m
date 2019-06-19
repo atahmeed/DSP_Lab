@@ -29,7 +29,7 @@ for i=1:M
 end
 
 I_lowpass_F = I_fft.*H_lowpass;
-subplot(323);imshow(I_lowpass_F);
+subplot(324);imshow(I_lowpass_F);
 title('Low frequency ');
 LowPassed_image = ifft2(I_lowpass_F);
 for i=1:M
@@ -37,7 +37,7 @@ for i=1:M
         LowPassed_image(i,j) = LowPassed_image(i,j)*(-1)^(i+j); 
     end
 end
-subplot(324);imshow(LowPassed_image);
+subplot(323);imshow(LowPassed_image);
 title('Lowpass Enhanced');
 
 
@@ -55,7 +55,7 @@ for i=1:M
 end
 
 I_highpass_F = I_fft.*H_highpass;
-subplot(325);imshow(I_highpass_F);
+subplot(326);imshow(I_highpass_F);
 title('High frequency ');
 HighPassed_image = ifft2(I_highpass_F);
 for i=1:M
@@ -63,5 +63,5 @@ for i=1:M
         HighPassed_image(i,j) = HighPassed_image(i,j)*(-1)^(i+j); 
     end
 end
-subplot(326);imshow(HighPassed_image);
+subplot(325);imshow(HighPassed_image);
 title('Highpass Enhanced');

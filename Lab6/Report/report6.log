@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.1)  19 JUN 2019 23:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.1)  19 JUN 2019 23:42
 entering extended mode
 **./report6.tex
 (report6.tex
@@ -376,26 +376,38 @@ File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 18.
- [2]) [3] (report6.aux) ) 
+ [2])
+<result.jpg, id=21, 702.625pt x 526.96875pt>
+File: result.jpg Graphic file (type jpg)
+<use result.jpg>
+Package pdftex.def Info: result.jpg  used on input line 82.
+(pdftex.def)             Requested size: 421.57825pt x 316.18369pt.
+
+Overfull \hbox (61.57825pt too wide) in paragraph at lines 82--83
+[][] 
+ []
+
+[3] [4 <./result.jpg>] (report6.aux) ) 
 Here is how much of TeX's memory you used:
- 5446 strings out of 492946
- 78249 string characters out of 3143499
+ 5455 strings out of 492946
+ 78378 string characters out of 3143499
  214836 words of memory out of 3000000
- 9299 multiletter control sequences out of 15000+200000
+ 9306 multiletter control sequences out of 15000+200000
  10597 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,57p,519b,1819s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\user\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\tctt1095.pk> <C:\Users\user\AppData\Local\MiKTeX\2.9\font
-s/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><B:/miktex/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><B:/mikt
-ex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><B:/miktex/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><B:/miktex
-/fonts/type1/public/amsfonts/cm/cmti10.pfb><B:/miktex/fonts/type1/public/amsfon
-ts/cm/cmti12.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report6.pdf (4 pages, 119247 bytes).
+ 41i,7n,57p,519b,1819s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\user\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/jknappen/ec/dpi600\tctt1095.pk> <C:\Users\user\AppData\Local\Mi
+KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><B:/miktex/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmcsc10
+.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><B:/miktex/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><B:/miktex/fonts/type1/public/amsfonts/cm/cmti10.pfb><B:/miktex/fonts/type1/
+public/amsfonts/cm/cmti12.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb>
+Output written on report6.pdf (5 pages, 167396 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
