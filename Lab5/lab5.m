@@ -17,11 +17,11 @@ y = a*x + v;
 yn = xn;
 
 % cross correlate x,y
-[rxy,lag] = ccor(x,Xn,y,yn);
+[rxy,rxyindx] = ccor(x,Xn,y,yn);
 
 % Find index of peak
 [M, midx] = max(rxy);
-lag(midx)
+rxyindx(midx)
 
 % plot the correlated signal
-stem(lag,rxy,'k*');
+stem(rxyindx,rxy,'k*');

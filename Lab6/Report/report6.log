@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.1)  15 JUN 2019 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.1)  19 JUN 2019 23:29
 entering extended mode
-**./report3.tex
-(report3.tex
+**./report6.tex
+(report6.tex
 LaTeX2e <2018-12-01>
 (B:\miktex\tex/latex/base\article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -254,6 +254,9 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \c@ContinuedFloat=\count100
 Package caption Info: listings package is loaded.
 )
+(B:\miktex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
 (B:\miktex\tex/latex/graphics\graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
@@ -264,40 +267,48 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-) (report3.aux)
-\openout1 = `report3.aux'.
+)
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(B:\miktex\tex/latex/caption\subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count101
+\c@subtable=\count102
+) (report6.aux)
+\openout1 = `report6.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 6.
 
 (B:\miktex\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    ... okay on input line 6.
  (B:\miktex\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen114
+\scratchcounter=\count103
+\scratchdimen=\dimen116
 \scratchbox=\box29
-\nofMPsegments=\count102
-\nofMParguments=\count103
+\nofMPsegments=\count104
+\nofMParguments=\count105
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen115
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen117
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
 \everyMPtoPDFconversion=\toks18
 ) (B:\miktex\tex/latex/oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -346,52 +357,45 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\c@lstlisting=\count107
+\c@lstlisting=\count109
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 31.
+(Font)              <12> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 31.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 33.
+(Font)              <6> on input line 36.
  [1
 
-{C:/Users/user/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+{C:/Users/user/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (../lab6.m
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 2.
 
- []
-
-<Capture.jpg, id=10, 314.97675pt x 75.8835pt>
-File: Capture.jpg Graphic file (type jpg)
-<use Capture.jpg>
-Package pdftex.def Info: Capture.jpg  used on input line 69.
-(pdftex.def)             Requested size: 314.97597pt x 75.8833pt.
-[1 <./Capture.jpg>] (../lab3.m) (../convolution.m) (../rightShift.m [2])
-(../Ws.m) [3] (report3.aux) ) 
+(B:\miktex\tex/latex/base\ts1cmtt.fd
+File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [1]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 18.
+ [2]) [3] (report6.aux) ) 
 Here is how much of TeX's memory you used:
- 5336 strings out of 492946
- 76296 string characters out of 3143499
- 224376 words of memory out of 3000000
- 9187 multiletter control sequences out of 15000+200000
- 10431 words of font info for 37 fonts, out of 3000000 for 9000
+ 5446 strings out of 492946
+ 78249 string characters out of 3143499
+ 214836 words of memory out of 3000000
+ 9299 multiletter control sequences out of 15000+200000
+ 10597 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,57p,276b,1746s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\user\AppData\Local\MiKTeX\2.9\fonts/pk/
-ljfour/jknappen/ec/dpi600\tcrm1095.pk><B:/miktex/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><B:/miktex/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb><B:/miktex/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><B:/miktex/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><B:/miktex/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><B:/miktex/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb><B:/miktex/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report3.pdf (4 pages, 157761 bytes).
+ 41i,6n,57p,519b,1819s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\user\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\tctt1095.pk> <C:\Users\user\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><B:/miktex/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><B:/mikt
+ex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><B:/miktex/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><B:/miktex
+/fonts/type1/public/amsfonts/cm/cmti10.pfb><B:/miktex/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb><B:/miktex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on report6.pdf (4 pages, 119247 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

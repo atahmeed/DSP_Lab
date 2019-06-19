@@ -5,9 +5,7 @@ function [out,outOrigin] = convolution(input, h, ino, ho)
     X = zeros(1, 3*L);
     H=X;
     out = X;
-    for i=1:size(input,2)
-        H(i) = hneg(i);
-    end
+    H=hneg;
     for i =L+1:2*L
         X(i) = input(i-L);
     end
